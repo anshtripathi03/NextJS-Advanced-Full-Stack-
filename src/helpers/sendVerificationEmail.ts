@@ -1,7 +1,6 @@
 import { resend } from "../lib/resend";
 import VerificationEmail from "@/emails/verificationEmail";
-import { ApiResponce } from "../types/Apiresponce";
-import { success } from "zod";
+import { ApiResponce } from "../types/ApiResponce";
 
 export default async function sendVerificationEmail(
   username: string,
